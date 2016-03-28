@@ -1,0 +1,86 @@
+﻿body, html {
+    background: rgb(222,222,222);
+    margin: 0px;
+    font: 20px 隶书;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+}
+
+.header {
+    background: rgb(51,51, 51);
+    height: 60px;
+    line-height: 60px;
+    color: white;
+}
+
+    .header img {
+        float: left;
+        padding-left: 30px;
+    }
+
+    .header .ife_title {
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+.container {
+    background: #fff;
+    margin: 22px;
+    padding: 20px;
+    min-width: 550px;
+    -moz-box-shadow: 2px 2px 2px #888888;
+    -webkit-box-shadow: 2px 2px 2px #888888;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+    .container dl {
+        /*-moz-box-shadow: 2px 2px 2px #888888;
+        -webkit-box-shadow: 2px 2px 2px #888888;
+        box-shadow: 2px 2px 2px #888888;*/
+    }
+
+    .container dt, dd {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid rgb(222,222,222);
+        border-radius: 4px 4px 4px;
+    }
+
+    .container dt {
+        color: blue;
+        font-size: 22px;
+        font-weight: 700;
+        background: #b6ff00;
+    }
+
+    .container dd {
+        margin-left: 0px;
+        color: #4800ff;
+    }
+
+dd a {
+    text-decoration: none;
+}
+
+.container dt:hover, dd:hover {
+    border: 1px solid #00ff90;
+}
+
+footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    background: #000;
+    line-height: 60px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.clear {
+    clear: both;
+    zoom: 1;
+}

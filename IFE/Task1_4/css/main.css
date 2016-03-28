@@ -1,0 +1,36 @@
+﻿body {
+    background-color: white;
+}
+
+/* using absolute to location*/
+.wrapper {
+    position: absolute;
+    background: #eee;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 200px;
+    margin-left: -200px;
+    margin-top: -100px;
+    overflow: hidden;
+}
+
+.corner {
+    position: absolute;
+    background: #fc0;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.corner-left {
+    left: -50px;
+    top: -50px;
+}
+
+.corner-right {
+    right: -50px;
+    bottom: -50px;
+}

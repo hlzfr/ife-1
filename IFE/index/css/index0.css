@@ -1,0 +1,98 @@
+﻿body, html {
+    background: rgb(222,222,222);
+    margin: 0px;
+    font: 14px 微软雅黑;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+}
+
+.header {
+    background: rgb(51,51, 51);
+    height: 60px;
+}
+
+    .header img {
+        float: left;
+        padding-left: 30px;
+    }
+
+    .header .team_name {
+        float:right;
+        padding-right:20px;
+        line-height:60px;
+        color:white;
+    }
+
+.container {
+    /*height: auto;*/
+    /*padding-bottom: 60px;*/
+}
+
+/*article*/
+article {
+    background: #fff;
+    margin: 22px;
+    padding: 20px;
+    min-width: 550px;
+    -moz-box-shadow: 2px 2px 2px #888888;
+    -webkit-box-shadow: 2px 2px 2px #888888;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+    article h2 {
+        line-height: 30px;
+    }
+
+    article h3 {
+        line-height: 15px;
+    }
+
+.left, .center, .right {
+    position: relative;
+    float: left;
+    width: 300px;
+    min-width: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+.list ul {
+    padding: 3px;
+}
+
+    .list ul > li {
+        list-style-type: none;
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 2px;
+    }
+
+
+
+.list a {
+    text-decoration: none;
+}
+
+    .list a:hover {
+        color: #ff6a00;
+    }
+
+
+footer {
+    /*position: absolute;*/
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    background: #000;
+    line-height: 60px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.clear {
+    clear: both;
+    zoom: 1;
+}

@@ -186,14 +186,14 @@
             <h2>侧栏注册窗口标题</h2>
             <p>
                 <label>请输入邮箱地址：</label>
-                <input type="text" name="UserID" value="" placeholder="这是一个文本输入框" />
+                <input type="email" name="UserID" value="" placeholder="这是一个文本输入框" />
             </p>
             <p>邮箱地址请按要求格式输入</p>
             <p>
                 <label>请输入密码：</label>
-                <input type="password" name="UserPassword" value="" placeholder="这是一个文本输入框" />
+                <input type="password" name="UserPassword" value="" minlength="6" maxlength="16" pattern="[A-Za-z0-9\-]*" placeholder="这是一个文本输入框" />
                 <label>请重复输入密码：</label>
-                <input type="password" value="" placeholder="这是一个文本输入框" />
+                <input type="password" value="" minlength="6" maxlength="16" pattern="[A-Za-z0-9\-]*" placeholder="这是一个文本输入框" />
             </p>
             <p>密码请为6-16位英文数字</p>
             <p>
